@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  box-sizing: border-box;
+ }
+.colorContainer {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  display: block;
+  left: calc(50% - 50px);
+  top: 200px;
+}
+.colorInput {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  padding: 0;
+  margin-bottom: 10px;
+  border: 1px black solid;
+}
+.colorP {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px black solid;
+  margin: 0;
+  padding: 0;
+}
